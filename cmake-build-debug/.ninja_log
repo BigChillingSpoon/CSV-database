@@ -1,0 +1,10 @@
+# ninja log v6
+37	877	7856679660664047	build.ninja	c987b3eb7effb66f
+7	370	7852829943522592	CMakeFiles/csv_database.dir/database_wrapper.c.obj	85a5c2a413cfe213
+205	598	7852836536109194	csv_database.exe	cbb6fe9ddef94fd4
+26	334	7852824636299463	CMakeFiles/csv_database.dir/main.c.obj	7bdf9d2214d9c52d
+53	371	7852798397827946	CMakeFiles/csv_database.dir/error_handler.c.obj	e19b9e2c249fde62
+8	205	7852836534135212	CMakeFiles/csv_database.dir/csv_data_store.c.obj	40f27260471a549f
+24	372	7852833929099685	CMakeFiles/csv_database.dir/database_command_handler.c.obj	4655426142c8bda4
+45	281	7852798397739816	CMakeFiles/csv_database.dir/common_string_functions.c.obj	b556aecc279d3fd
+106	356	7852824637088198	CMakeFiles/csv_database.dir/input_data_parser.c.obj	3aec5d6d88b5776a

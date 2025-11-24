@@ -1,0 +1,18 @@
+max
+average NonExistentColumn
+addrow 10,20
+addcol new_col 10,20
+randomcommand whatever
+
+sum Age
+average Score
+max Age
+min Score
+addrow David,35,95
+min Status
+addcol Status Active,Active,Inactive,Active,Inactive
+min Status
+sum Age
+sum Age
+average Score
+exit

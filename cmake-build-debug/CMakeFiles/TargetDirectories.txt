@@ -1,0 +1,3 @@
+C:/Users/vikslajvant/Documents/Skola/vsb/upr/projekty/csv-database/cmake-build-debug/CMakeFiles/csv_database.dir
+C:/Users/vikslajvant/Documents/Skola/vsb/upr/projekty/csv-database/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vikslajvant/Documents/Skola/vsb/upr/projekty/csv-database/cmake-build-debug/CMakeFiles/rebuild_cache.dir
