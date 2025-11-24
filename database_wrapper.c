@@ -5,12 +5,12 @@
 #include "database_wrapper.h"
 
 void convert_to_columns(TABLE* table, char* data) {
-    char delimiter = ',';
     remove_newline(data);
-    char *token = strtok(data,&delimiter);
+    char *token;
+    strtok(data,",");
     while (token != NULL) {
         add_column(token, table);
-        token = strtok(NULL, &delimiter);
+        token = strtok(NULL, ",");
     }
 }
 
@@ -208,7 +208,8 @@ void free_table(TABLE *table) {
     if (table == NULL) {
         return;
     }
-
+    //free file info
+    free_csv_file_info(&table->file_info);
     //free rows
     if (table->rows != NULL) {
         for (int i = 0; i < table->rows_capacity; i++) {
@@ -241,4 +242,12 @@ void free_table(TABLE *table) {
     table->number_of_columns = 0;
     table->rows_capacity = 0;
     table->columns_capacity = 0;
+}
+
+void free_csv_file_info(CSV_FILE* csv_file_info) {
+    if (csv_file_info == NULL) {
+        return;
+    }
+    free(csv_file_info->input_path);
+    free(csv_file_info->output_path);
 }

@@ -13,7 +13,7 @@ int get_count_of_elements(const char *source_str, char delimeter) {
         }
         i++;
     }
-    return *source_str == '\0' ? 0 : ++count;//only if string is empty then count is O otherwise count is 1 or more
+    return *source_str == '\0' ? 0 : ++count;//only  if string is empty then count is O otherwise count is 1 or more
 }
 
 void remove_newline(char* string) {

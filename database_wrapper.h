@@ -50,6 +50,7 @@ int get_column_maximum(const TABLE *TABLE, const char* target_column_name, int *
 int get_column_sum(const TABLE *TABLE, const char* target_column_name, int *error_code);
 void init_table(TABLE *table);
 void free_table(TABLE *table);
+void free_csv_file_info(CSV_FILE* csv_file_info);
 void increase_column_memory(TABLE *table);
 void increase_row_memory(TABLE *table);
 void increase_row_value_memory(ROW* row);
